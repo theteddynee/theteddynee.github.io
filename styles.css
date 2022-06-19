@@ -1,0 +1,102 @@
+body {
+    background: black;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+    border: 2px solid white;
+    border-width: 3px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    color: white;
+    transition: color 1s;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.bottom-text span {
+    color: #ff00a7;
+}
+
+a:hover {
+    color: #00ff0f;
+    background: #ff1100;
+    border-color: #ffef65;
+    box-shadow: 0 0 10px #ff1100;
+
+}
+
+ul.socila {
+    text-align: center;
+}
+
+ul.socila li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+a:hover.facebook {
+    background: #3b5998
+}
+
+
+a:hover.instagram {
+    background: #fa7e1e
+}
+
+a:hover.twitter {
+    background: #00acee
+}
+
+a:hover.youtube {
+    background: red;
+}
+
+a:hover.email {
+    background: rgb(255, 61, 94);
+}
