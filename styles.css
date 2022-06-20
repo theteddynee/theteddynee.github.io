@@ -72,12 +72,14 @@ a:hover {
 
 ul.socila {
     text-align: center;
+    pading: 0px
 }
 
 ul.socila li {
     list-style: none;
     display: inline-block;
     margin: 10px;
+   
 }
 
 a:hover.facebook {
